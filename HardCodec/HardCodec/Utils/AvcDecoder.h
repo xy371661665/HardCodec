@@ -6,7 +6,8 @@
 //  Copyright © 2018 apple. All rights reserved.
 //
 
-#import <Foundation/Foundation.h>
+#import <UIKit/UIKit.h>
+#import <AVFoundation/AVFoundation.h>
 
 typedef NS_ENUM(NSUInteger, AvcDecoderNALUType) {
     AvcDecoderNALUTypeSPS,
@@ -20,9 +21,19 @@ typedef NS_ENUM(NSUInteger, AvcDecoderNALUType) {
 
 NS_ASSUME_NONNULL_BEGIN
 
+@protocol AvcDecoderDelegate <NSObject>
+
+-(void)onReceiveCVPixelBuffer:(CVPixelBufferRef)pixelBuffer;
+
+@end
+
 @interface AvcDecoder : NSObject
 
 +(instancetype)getInstance;
+
+@property (nonatomic,weak) id<AvcDecoderDelegate>  delegate;
+
+-(void)setDisplayLayer:(AVSampleBufferDisplayLayer*)layer;
 
 -(void)decoderFile:(NSString*)filePath;
 

@@ -20,9 +20,29 @@
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
                     <navigationItem key="navigationItem" id="3uE-5x-CBc"/>
+                    <connections>
+                        <segue destination="WiV-HH-ZEE" kind="push" identifier="pushToPlayVC" id="lDG-xf-bah"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
+            <point key="canvasLocation" x="20" y="114"/>
+        </scene>
+        <!--PlayVC-->
+        <scene sceneID="0gA-Bc-zY3">
+            <objects>
+                <viewController id="WiV-HH-ZEE" customClass="PlayVC" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="uOC-I4-ieg">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <viewLayoutGuide key="safeArea" id="twC-8Z-OFe"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="5tj-Fg-9kT"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="whr-2i-tAp" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="809" y="114"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="fM6-Xq-8uO">
@@ -38,7 +58,7 @@
                 </navigationController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="s9G-53-fPe" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-506" y="155"/>
+            <point key="canvasLocation" x="-692" y="114"/>
         </scene>
     </scenes>
 </document>

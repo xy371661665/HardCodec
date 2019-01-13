@@ -111,8 +111,8 @@
  开启编码器
  */
 -(void)startEncoder{
-    int width = self.view.frame.size.width;
-    int height = self.view.frame.size.height;
+    int width = 480;
+    int height = 640;
     [[AvcEncoder getInstance] prepareEncoder:width height:height fps:15 bps:width*height];
     [[AvcEncoder getInstance] setDelegate:self];
 }

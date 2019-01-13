@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0AA70E9121E72EC700ED5BD6 /* AcxNewDecoder.m in Sources */ = {isa = PBXBuildFile; fileRef = 0AA70E9021E72EC700ED5BD6 /* AcxNewDecoder.m */; };
 		0AE5BD3021BE7413002FABEF /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 0AE5BD2F21BE7413002FABEF /* AppDelegate.m */; };
 		0AE5BD3621BE7413002FABEF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0AE5BD3421BE7413002FABEF /* Main.storyboard */; };
 		0AE5BD3821BE7417002FABEF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0AE5BD3721BE7417002FABEF /* Assets.xcassets */; };
@@ -21,6 +22,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0AA70E8F21E72EC700ED5BD6 /* AcxNewDecoder.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AcxNewDecoder.h; sourceTree = "<group>"; };
+		0AA70E9021E72EC700ED5BD6 /* AcxNewDecoder.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AcxNewDecoder.m; sourceTree = "<group>"; };
 		0AE5BD2B21BE7413002FABEF /* HardCodec.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HardCodec.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0AE5BD2E21BE7413002FABEF /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		0AE5BD2F21BE7413002FABEF /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -97,6 +100,8 @@
 				0AE5BD5021BE74AC002FABEF /* CameraUtil.m */,
 				0AE5BD4E21BE74AC002FABEF /* FileUtil.h */,
 				0AE5BD4B21BE74AB002FABEF /* FileUtil.m */,
+				0AA70E8F21E72EC700ED5BD6 /* AcxNewDecoder.h */,
+				0AA70E9021E72EC700ED5BD6 /* AcxNewDecoder.m */,
 			);
 			path = Utils;
 			sourceTree = "<group>";
@@ -195,6 +200,7 @@
 				0AE5BD5B21BE74DE002FABEF /* PlayVC.m in Sources */,
 				0AE5BD3E21BE7417002FABEF /* main.m in Sources */,
 				0AE5BD5421BE74AC002FABEF /* CameraUtil.m in Sources */,
+				0AA70E9121E72EC700ED5BD6 /* AcxNewDecoder.m in Sources */,
 				0AE5BD3021BE7413002FABEF /* AppDelegate.m in Sources */,
 				0AE5BD5321BE74AC002FABEF /* AvcEncoder.m in Sources */,
 				0AE5BD5221BE74AC002FABEF /* FileUtil.m in Sources */,
